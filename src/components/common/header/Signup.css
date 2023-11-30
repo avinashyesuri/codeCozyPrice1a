@@ -1,0 +1,67 @@
+/* SignUpPopup.css */
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .hsign {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-number-input {
+    margin: 20px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .or-divider {
+    margin: 20px 0;
+  }
+  
+  .or-divider span {
+    background: #fff;
+    padding: 0 10px;
+  }
+  
+  .google-sign-in {
+    background: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    margin-top: 20px;
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

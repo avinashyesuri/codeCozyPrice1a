@@ -1,0 +1,117 @@
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width: 170px;
+
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: linear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: linear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+
+/* butt */
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.button h4 {
+  margin-right: 20px;
+}
+
+.btn1, .btn-login-in {
+  background-color:  #61A3BA;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.btn-post-ad {
+  background-color: #61A3BA;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  /* font-size: 16px; */
+  
+}
+
+.btn1:hover, .btn-login-in:hover {
+  background-color: white;
+  color: black;
+  border: 1px #5522e0 solid ;
+}
+ /* butt */
+
+.logo{
+  height: 30px;
+} 
+
+/* .logo img {
+  max-width: 100%;
+  height: auto;
+} */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+   header .button {
+    display: none;
+  } 
+   header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: linear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  } 
+
+
+
+

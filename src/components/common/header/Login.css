@@ -1,0 +1,60 @@
+/* Login.css */
+
+.login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke ;
+  padding:  40px;
+  width: 40%;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+  z-index: 1000;
+  
+}
+
+.login-popup h2 {
+  text-align: center;
+}
+.login-popup form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.login-popup label {
+  margin-bottom: 5px;
+  color: black;
+}
+
+.login-popup input {
+  padding: 8px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.login-popup button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-popup button:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-popup {
+    width: 80%; /* Adjust the width for smaller screens */
+    padding: 20px;
+  }
+}
+.icons {
+  padding-left:10%;
+}
+.icons a{
+  color: blue;
+}

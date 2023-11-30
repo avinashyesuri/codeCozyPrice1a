@@ -1,0 +1,126 @@
+/* RealEstateForm.css */
+
+.form-container {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+  box-shadow: inset 0 0 10px ;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+
+}
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(16, 91, 241);
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+/* 
+.form-groupbutton {
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+  text-align: center;
+} */
+
+.submit-button {
+  width: 10%;
+  background-color: linear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);;
+  color: white;
+  /* padding: 5px; */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  /* margin-left: 100px; */
+}
+.form-group label{
+ align-items: center;
+ align-self: center;
+ justify-content: center;
+ margin-left: 100px;
+ }
+
+.submit-button:hover {
+  background-color: rgb(63, 101, 131);
+}
+
+/* Styling for the file input */
+#photos {
+  border: solid 1px black;
+width: 100%;
+}
+#videos{
+  border:solid 1px black;
+  width: 100%;
+}
+
+.file-upload-label {
+  display: inline-block;
+  background-color: rgb(83, 121, 151);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.file-upload-label:hover {
+  background-color: rgb(63, 101, 131);
+}
+/* #location {
+  padding: 9px 70px;
+  border-radius: 6px;
+  border: solid black 1px;
+  align-items: center;
+  justify-content: center;
+}
+#bedrooms {
+  padding: 9px 35px;
+  border-radius: 6px;
+  border: solid black 1px;
+}
+#bathrooms {
+  padding: 9px 35px;
+  border-radius: 6px;
+  border: solid black 1px;
+}
+#title{
+  border-radius: 6px;
+  border: solid black 1px;
+  width: 78%;
+}
+#contactEmail{
+  border-radius: 6px;
+  border: solid black 1px;
+  width: 78%;
+}
+#description{
+  border-radius: 6px;
+  border: solid black 1px;
+  width: 50%;
+}  */

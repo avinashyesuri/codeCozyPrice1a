@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: "Poppins";
+    background-color: #eee;
+}
+*{
+    box-sizing: border-box;
+}
+.subCardContainer {
+    display: block;
+    max-height: 450px;
+    max-width: 350px;
+    border-radius: 60px;
+    box-shadow:   0 0 10pxlinear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);; 
+    background-color: #f3f3f3;
+
+}
+.subCardContainer input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #ddd;
+  
+}
+.subCardContainer button{
+    background-color:  linear-gradient(90deg, rgba(74,25,219,1) 0%, rgba(138,68,250,1) 100%);;
+}
+.subCardContainer  input::placeholder{
+    color: grey;
+}
+
+

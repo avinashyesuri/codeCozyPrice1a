@@ -1,0 +1,225 @@
+
+
+.property-details-table ,
+ .additional-details-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.property-details-table td, 
+.property-details-table th,
+.additional-details-table td,
+.additional-details-table th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .property-details-table th, 
+    .additional-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .property-details-table tr:nth-child(even),
+    .additional-details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+
+  }
+.property-details-img {
+   width:100%; /* Ensure the image doesn't exceed its container */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .property-description-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  /* ... (previous styles) */
+
+.comments-box {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comments-box input {
+    width: 20%;
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .comments-box button {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+/* Your previous styles here @media  */
+@media screen and (max-width: 767px) {
+  /* Styles for screens with a maximum width of 767px or smaller (typical mobile devices) */
+
+  .property-details-table,
+  .additional-details-table {
+    width: 100%; /* Make tables full-width on smaller screens */
+  }
+
+  .property-details-img {
+    max-width: 100%; /* Ensure the image is 100% of its container on smaller screens */
+    height: auto; /* Allow the height to adjust accordingly */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+}
+
+  .comments-box input {
+    width: 100%; /* Make the input field full-width on smaller screens */
+    margin-right: 0; /* Remove right margin for better spacing */
+    margin-bottom: 8px; /* Adjust bottom margin as needed */
+  }
+
+
+
+
+  /*New --styling (Maap, validation)*/
+
+/* .propertyOverSty1{
+  flex-basis: 50%;
+}
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+ 
+    
+  } */
+
+
+  .WholeContainer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .SubWholeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:5px 20px;
+    
+  }
+  .propertyOverSty{
+    width: 70%;
+    
+      }
+      .propertyOverSty1{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 28%;
+      }
+  @media (max-width: 768px)  {
+    .SubWholeContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin:5px 10px;
+      
+    }
+    .propertyOverSty{
+      width: 100%;
+      
+        }
+        .propertyOverSty1{
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          margin-left: 1px;
+          width: 100%;
+        }
+    
+    /* Styles for tablets in portrait mode --------------------only screen and  (orientation: portrait)*/
+  }
+
+  .mainCard{
+    height: 750px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    padding: 10px;
+    box-shadow: inset 0 0 15px #5522e0;
+    border-radius: 20px;   /* */
+  }
+  .card1{
+        width:95%;
+    margin: 10px;
+padding: 2px;
+    border: 2px solid rgb(241, 226, 86);
+    background-color: rgb(234, 235, 169);
+    border-radius: 5px;
+    font-size: small;
+  }
+  .card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 4px;
+}
+ .subb1{
+  background-color: rgb(36, 175, 230);
+  font-size: 10px;
+}
+.subb2{
+font-size: 10px;
+}
+.card3{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 4px;
+}
+.subp1{
+  font-size:10px;
+}
+.subp2{
+  font-size:16px;
+  color: rgb(62, 30, 241);
+}
+.subh{
+  font-size:22px;
+
+}
+.subcard3{
+  background-color: rgb(131, 153, 247);
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  padding: 30px;
+}
+.card4{
+ padding: 12px;
+ margin-bottom: 20px;
+}
+.submainCard{
+  height: 200px;
+  width: 90%;
+  margin: 2px 10px;
+  background-color:whitesmoke;
+  padding: 10px;
+
+box-shadow: inset 0 0 15px rgb(177, 168, 168);    /* */
+}
+.card5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+ }
